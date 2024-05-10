@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to Next.js!</h1>
+      <h1>ようこそ next pageへ!</h1>
       <Image 
         src="/static/cat.jpg"
         alt="logo"
