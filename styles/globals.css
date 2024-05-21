@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -56,6 +56,7 @@ body {
 }
 
 .content {
+  font-family: 'Manrope', sans-serif; 
   background-color: #202225;
   padding: 1rem;
   margin-top: 1rem;
@@ -97,3 +98,8 @@ body {
   transition: width 0.3s ease-in-out;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
