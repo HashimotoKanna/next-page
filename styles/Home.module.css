@@ -1,0 +1,29 @@
+/* styles/Home.module.css */
+.table {
+    margin: 0 auto;
+    /* 中央寄せ */
+    width: 50%;
+    /* 横幅の縮小 */
+    border-collapse: collapse;
+    /* 余分なスペースを排除 */
+}
+
+.table td {
+    border: 1px solid #ddd;
+    /* セルのボーダー */
+    padding: 8px;
+    /* セルの内側の余白 */
+    text-align: center;
+    /* 中央揃え */
+}
+
+.table th {
+    border: 1px solid #ddd;
+    /* セルのボーダー */
+    padding: 8px;
+    /* セルの内側の余白 */
+    text-align: center;
+    /* 中央揃え */
+    background-color: #f2f2f2;
+    /* ヘッダーの背景色 */
+}

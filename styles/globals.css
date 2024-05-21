@@ -17,19 +17,36 @@
   }
 }
 
-table {
-  width: 100%;
+/* styles/Home.module.css */
+.table {
+  margin: 0 auto;
+  /* 中央寄せ */
+  width: 50%;
+  /* 横幅の縮小 */
   border-collapse: collapse;
+  /* 余分なスペースを排除 */
 }
 
-table, th, td {
-  border: 1px solid black;
+.table td {
+  border: 1px solid #ddd;
+  /* セルのボーダー */
   padding: 8px;
+  /* セルの内側の余白 */
+  text-align: center;
+  /* 中央揃え */
 }
 
-th {
+.table th {
+  border: 1px solid #ddd;
+  /* セルのボーダー */
+  padding: 8px;
+  /* セルの内側の余白 */
+  text-align: center;
+  /* 中央揃え */
   background-color: #f2f2f2;
+  /* ヘッダーの背景色 */
 }
+
 
 /* styles/globals.css */
 body {
@@ -56,12 +73,13 @@ body {
 }
 
 .content {
-  font-family: 'Manrope', sans-serif; 
+  font-family: 'Manrope', sans-serif;
   background-color: #202225;
   padding: 1rem;
   margin-top: 1rem;
   border-radius: 8px;
 }
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -71,7 +89,8 @@ body {
 .button {
   padding: 10px 20px;
   margin: 10px;
-  background-color: #5865F2; /* Discordブランドの青色 */
+  background-color: #5865F2;
+  /* Discordブランドの青色 */
   color: white;
   border: none;
   border-radius: 4px;
@@ -81,8 +100,10 @@ body {
 }
 
 .button:hover {
-  background-color: #4e5bd4; /* ホバー時は少し暗く */
+  background-color: #4e5bd4;
+  /* ホバー時は少し暗く */
 }
+
 .progress-container {
   width: 100%;
   background-color: #ddd;
@@ -92,9 +113,11 @@ body {
 
 .progress-bar {
   height: 20px;
-  background-color: #4CAF50; /* 緑色 */
+  background-color: #4CAF50;
+  /* 緑色 */
   border-radius: 5px;
-  width: 0%; /* 初期値 */
+  width: 0%;
+  /* 初期値 */
   transition: width 0.3s ease-in-out;
 }
 
