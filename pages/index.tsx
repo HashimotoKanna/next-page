@@ -22,7 +22,38 @@ export default function Home() {
           <h1>Welcome to My Portfolio</h1>
         </div>
         <div className="content">
-          <p>This is a simple portfolio site styled like Discord.</p>
+          <p>誕生日: 10月10日</p>
+          <p>生い立ち: 石川県誕生 → 富山県引っ越し → 大阪府引っ越し → 富山引っ越し → 金沢工業大学入学</p>
+          <p>好きな食べ物:ジンジャーエール、ぶどう</p>
+          <p>趣味: 音楽鑑賞、旅行、ゲーム</p>
+        </div>
+        <div className="content">
+          <img src= {"/static/techs/python_icon.png"} style={{ width: 50, height: 50 }} />
+          <p>Python</p>
+          <ProgressBar percentage={percentage} />
+          <Button text="click me" onClick={increaseProgress}/>
+        </div>
+        <div className="content">
+          <img src= {"/static/techs/javascript_icon.png"} style={{ width: 50, height: 50 }} />
+          <p>JavaScript</p>
+          <ProgressBar percentage={percentage} />
+          <Button text="click me" onClick={increaseProgress}/>
+        </div>
+        <div className="content">
+          <img src= {"/static/techs/java_icon.png"} style={{ width: 50, height: 50 }} />
+          <p>Java</p>
+          <ProgressBar percentage={percentage} />
+          <Button text="click me" onClick={increaseProgress}/>
+        </div>
+        <div className="content">
+          <img src= {"/static/techs/c_icon.png"} style={{ width: 50, height: 50 }} />
+          <p>C</p>
+          <ProgressBar percentage={percentage} />
+          <Button text="click me" onClick={increaseProgress}/>
+        </div>
+        <div className="content">
+          <img src= {"/static/techs/mysql_icon.png"} style={{ width: 50, height: 50 }} />
+          <p>MySQL</p>
           <ProgressBar percentage={percentage} />
           <Button text="click me" onClick={increaseProgress}/>
         </div>
