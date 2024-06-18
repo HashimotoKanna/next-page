@@ -39,15 +39,15 @@ export default function Home() {
           <table className={styles.table}>
             <tbody>
               <tr>
-                <td>20xx年yy月</td>
+                <td>2003年10月</td>
                 <td>石川県誕生</td>
               </tr>
               <tr>
-                <td>20xx年yy月</td>
+                <td>2004年01月</td>
                 <td>富山県引っ越し</td>
               </tr>
               <tr>
-                <td>20xx年yy月</td>
+                <td>20年yy月</td>
                 <td>大阪府引っ越し</td>
               </tr>
               <tr>
@@ -55,7 +55,7 @@ export default function Home() {
                 <td>富山県引っ越し</td>
               </tr>
               <tr>
-                <td>20xx年yy月</td>
+                <td>2022年4月</td>
                 <td>金沢工業大学入学</td>
               </tr>
             </tbody>
